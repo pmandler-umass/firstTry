@@ -1,3 +1,13 @@
+# PAMS notes
+# start the backend
+cd backend/src 
+uvicorn app:app --reload
+    see the output for the port #.
+    enter that into firstTry/src/App.js
+# start the frontend
+cd ../..  (back to firstTry)
+npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
